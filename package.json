@@ -4,7 +4,9 @@
   "description": "A simple numeric system converter",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "test:cov": "nyc --reporter=lcov ava --files=tests/**-test.js",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/juanarbol/bin2/issues"
   },
-  "homepage": "https://github.com/juanarbol/bin2#readme"
+  "homepage": "https://github.com/juanarbol/bin2#readme",
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "nyc": "^14.1.1",
+    "proxyquire": "^2.1.1",
+    "sinon": "^7.4.1",
+    "standard": "^13.1.0"
+  }
 }
