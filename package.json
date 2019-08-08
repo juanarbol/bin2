@@ -1,0 +1,25 @@
+{
+  "name": "@juanarbol/bin2",
+  "version": "1.0.0",
+  "description": "A simple numeric system converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanarbol/bin2.git"
+  },
+  "keywords": [
+    "converter",
+    "bin",
+    "hex",
+    "dec"
+  ],
+  "author": "Juan José <soyjuanarbol@gmail.com> (https://juanarbol.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanarbol/bin2/issues"
+  },
+  "homepage": "https://github.com/juanarbol/bin2#readme"
+}
